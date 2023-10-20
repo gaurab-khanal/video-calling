@@ -50,7 +50,17 @@ button:hover{
 
 .copyButton{
   outline: none;
-  background-color: blue; /* Replace with your desired blue color */
+  background-color: blue; 
   color: white;
  
+}
+
+@media (max-width: 768px) {
+  .home{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px 0; 
+  }
 }
