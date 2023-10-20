@@ -19,12 +19,6 @@ const Room = () => {
 
             zc.joinRoom({
                 container: element,
-                sharedLinks: [
-                    {
-                        name: "Copy Link",
-                        url: `https://video-calling-ten.vercel.app/room/${roomId}`
-                    }
-                ],
                 scenario: {
                     mode: ZegoUIKitPrebuilt.OneONoneCall,
                 },
